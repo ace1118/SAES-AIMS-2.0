@@ -42,7 +42,7 @@
   border-style: solid;
   font-weight: 700;
   transition-duration: 0.5s;
-  background-image: none;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 20px 118px 0 41px;
   padding: 10px 27px 10px 25px;
 }
@@ -54,13 +54,13 @@
   border-style: solid;
   font-weight: 700;
   transition-duration: 0.5s;
-  background-image: none;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 20px auto 0 41px;
   padding: 10px 58px;
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 319px;
+  min-height: 322px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -70,7 +70,7 @@
 .u-section-1 .u-image-1 {
   width: 319px;
   left: auto;
-  right: 55px;
+  right: 0;
 }
 
 @media (max-width: 1199px) {
@@ -105,7 +105,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 263px;
+    min-height: 266px;
   }
 
   .u-section-1 .u-image-1 {
@@ -127,7 +127,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 201px;
+    min-height: 204px;
   }
 
   .u-section-1 .u-image-1 {
@@ -180,6 +180,50 @@
     width: 241px;
     object-position: 50% 26.72%;
   }
+}
+
+.u-section-1 .u-btn-1,
+.u-section-1 .u-btn-1:before,
+.u-section-1 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-1 .u-btn-1.u-btn-1.u-btn-1:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-1 .u-btn-1.u-btn-1.u-btn-1.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-btn-2,
+.u-section-1 .u-btn-2:before,
+.u-section-1 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-1 .u-btn-2.u-btn-2.u-btn-2:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-1 .u-btn-2.u-btn-2.u-btn-2.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-2 {
   min-height: 1254px;
 }
@@ -228,12 +272,12 @@
 }
 
 .u-section-2 .u-btn-1 {
-  background-image: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  border-style: solid;
-  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 500;
   margin: 0 auto;
   padding: 10px 52px 10px 51px;
 }
@@ -241,11 +285,11 @@
 .u-section-2 .u-custom-html-1 {
   min-height: 456px;
   width: 378px;
-  margin: 0 -2px;
+  margin: 11px -3px 0;
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 934px;
+  min-height: 935px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -261,19 +305,19 @@
 }
 
 .u-section-2 .u-btn-2 {
-  background-image: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  border-style: solid;
-  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 500;
   margin: 0 auto;
   padding: 10px 52px 10px 51px;
 }
 
 .u-section-2 .u-custom-html-2 {
   min-height: 455px;
-  margin: 0 -5px 0 0;
+  margin: 12px -4px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -311,6 +355,10 @@
     height: 385px;
   }
 
+  .u-section-2 .u-btn-1 {
+    border-style: none;
+  }
+
   .u-section-2 .u-custom-html-1 {
     height: auto;
     margin-right: initial;
@@ -323,7 +371,7 @@
   }
 
   .u-section-2 .u-btn-2 {
-    margin-top: 3px;
+    border-style: none;
   }
 
   .u-section-2 .u-custom-html-2 {
@@ -474,10 +522,6 @@
     height: 393px;
   }
 
-  .u-section-2 .u-btn-2 {
-    margin-top: 0;
-  }
-
   .u-section-2 .u-custom-html-2 {
     width: 323px;
   }
@@ -511,6 +555,50 @@
 
 .u-container-layout.hover .u-section-2 .u-image-2 {
   border-radius: 50px !important;
+}
+
+.u-section-2 .u-btn-1,
+.u-section-2 .u-btn-1:before,
+.u-section-2 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-2 .u-btn-1.u-btn-1.u-btn-1:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-2 .u-btn-1.u-btn-1.u-btn-1.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-2 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-2 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-2 .u-btn-2,
+.u-section-2 .u-btn-2:before,
+.u-section-2 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-2 .u-btn-2.u-btn-2.u-btn-2:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-2 .u-btn-2.u-btn-2.u-btn-2.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-2 .u-container-layout:hover .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-2 .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-3 {
   min-height: 980px;
 }
@@ -544,20 +632,19 @@
 }
 
 .u-section-3 .u-btn-1 {
-  background-image: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  border-style: solid;
-  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 500;
   margin: -3px auto 0;
   padding: 10px 52px 10px 51px;
 }
 
 .u-section-3 .u-custom-html-1 {
   min-height: 457px;
-  width: 378px;
-  margin: 0;
+  margin: 12px -5px 0 0;
 }
 
 .u-section-3 .u-layout-cell-2 {
@@ -576,19 +663,19 @@
 }
 
 .u-section-3 .u-btn-2 {
-  background-image: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  border-style: solid;
-  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 500;
   margin: -5px auto 0;
   padding: 10px 52px 10px 51px;
 }
 
 .u-section-3 .u-custom-html-2 {
   min-height: 457px;
-  margin: 5px -4px 0 0;
+  margin: 14px -4px 0 0;
 }
 
 .u-section-3 .u-layout-cell-3 {
@@ -608,20 +695,19 @@
 }
 
 .u-section-3 .u-btn-3 {
-  background-image: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  border-style: solid;
-  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 500;
   margin: -5px auto 0;
   padding: 10px 52px 10px 51px;
 }
 
 .u-section-3 .u-custom-html-3 {
   min-height: 457px;
-  width: 378px;
-  margin: 0;
+  margin: 14px -5px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -646,12 +732,14 @@
   }
 
   .u-section-3 .u-btn-1 {
+    border-style: none;
     margin-top: 70px;
   }
 
   .u-section-3 .u-custom-html-1 {
     height: auto;
     width: 307px;
+    margin-right: 0;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -663,7 +751,8 @@
   }
 
   .u-section-3 .u-btn-2 {
-    margin-top: 3px;
+    border-style: none;
+    margin-top: 68px;
   }
 
   .u-section-3 .u-custom-html-2 {
@@ -682,13 +771,12 @@
   }
 
   .u-section-3 .u-btn-3 {
-    margin-top: 3px;
+    border-style: none;
+    margin-top: 68px;
   }
 
   .u-section-3 .u-custom-html-3 {
-    height: auto;
-    width: 307px;
-    margin-top: 20px;
+    margin-right: 0;
   }
 }
 
@@ -736,13 +824,7 @@
   }
 
   .u-section-3 .u-image-3 {
-    height: 248px;
-  }
-
-  .u-section-3 .u-custom-html-3 {
-    width: 233px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 261px;
   }
 }
 
@@ -785,11 +867,7 @@
   }
 
   .u-section-3 .u-image-3 {
-    height: 516px;
-  }
-
-  .u-section-3 .u-custom-html-3 {
-    width: 540px;
+    height: 587px;
   }
 }
 
@@ -816,10 +894,6 @@
     height: 385px;
   }
 
-  .u-section-3 .u-btn-1 {
-    margin-top: 0;
-  }
-
   .u-section-3 .u-custom-html-1 {
     width: 340px;
     margin-top: 6px;
@@ -833,11 +907,6 @@
     height: 360px;
   }
 
-  .u-section-3 .u-btn-2 {
-    align-self: center;
-    margin-top: 0;
-  }
-
   .u-section-3 .u-custom-html-2 {
     width: 340px;
     margin-top: 10px;
@@ -849,14 +918,6 @@
 
   .u-section-3 .u-image-3 {
     height: 370px;
-  }
-
-  .u-section-3 .u-btn-3 {
-    align-self: center;
-  }
-
-  .u-section-3 .u-custom-html-3 {
-    width: 340px;
   }
 }
 
@@ -904,6 +965,72 @@
 .u-container-layout.hover .u-section-3 .u-image-3 {
   border-radius: 50px !important;
   transform: scale(1) !important;
+}
+
+.u-section-3 .u-btn-1,
+.u-section-3 .u-btn-1:before,
+.u-section-3 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-3 .u-btn-1.u-btn-1.u-btn-1:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-3 .u-btn-1.u-btn-1.u-btn-1.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-3 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-3 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-3 .u-btn-2,
+.u-section-3 .u-btn-2:before,
+.u-section-3 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-3 .u-btn-2.u-btn-2.u-btn-2:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-3 .u-btn-2.u-btn-2.u-btn-2.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-3 .u-container-layout:hover .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-3 .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-3 .u-btn-3,
+.u-section-3 .u-btn-3:before,
+.u-section-3 .u-btn-3 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-3 .u-btn-3.u-btn-3.u-btn-3:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-3 .u-btn-3.u-btn-3.u-btn-3.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-3 .u-container-layout:hover .u-btn-3 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-3 .u-btn-3 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-4 {
   min-height: 711px;
 }
