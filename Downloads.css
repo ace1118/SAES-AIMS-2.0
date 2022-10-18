@@ -316,7 +316,7 @@
 .u-container-layout.hover .u-section-1 .u-btn-6 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-2 .u-sheet-1 {
-  min-height: 270px;
+  min-height: 405px;
 }
 
 .u-section-2 .u-text-1 {
@@ -424,7 +424,6 @@
   grid-gap: 10px 10px;
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   min-height: 68px;
-  grid-auto-columns: calc(50% - 5px);
 }
 
 .u-section-2 .u-container-layout-6 {
@@ -459,40 +458,127 @@
   padding: 10px 18px 10px 17px;
 }
 
+.u-section-2 .u-btn-8 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+  text-transform: uppercase;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 500;
+  margin: -55px auto 60px;
+  padding: 10px 13px 10px 12px;
+}
+
 @media (max-width: 1199px) {
   .u-section-2 .u-list-1 {
     height: auto;
   }
 
   .u-section-2 .u-repeater-1 {
+    grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
     min-height: 56px;
+    grid-auto-columns: calc(25% - 7.5px);
   }
 
-  .u-section-2 .u-repeater-2 {
-    grid-template-columns: repeat(2, calc(50% - 5px));
+  .u-section-2 .u-btn-1 {
+    margin-left: 13px;
+    padding-right: 12px;
+    padding-left: 11px;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-left: 13px;
+    padding-right: 12px;
+    padding-left: 11px;
+  }
+
+  .u-section-2 .u-btn-3 {
+    margin-left: 13px;
+    padding-right: 12px;
+    padding-left: 11px;
+  }
+
+  .u-section-2 .u-btn-4 {
+    margin-left: 13px;
+    padding-right: 12px;
+    padding-left: 11px;
+  }
+
+  .u-section-2 .u-btn-5 {
+    margin-left: 13px;
+    padding-right: 12px;
+    padding-left: 11px;
+  }
+
+  .u-section-2 .u-list-2 {
+    margin-top: -65px;
+    margin-left: 238px;
+  }
+
+  .u-section-2 .u-btn-6 {
+    padding-right: 14px;
+    padding-left: 13px;
+  }
+
+  .u-section-2 .u-btn-7 {
+    padding-right: 14px;
+    padding-left: 13px;
+  }
+
+  .u-section-2 .u-btn-8 {
+    border-style: none;
+    margin-top: -57px;
+    margin-right: 17px;
+    padding-right: 10px;
+    padding-left: 9px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
-    min-height: 143px;
+    min-height: 129px;
+    grid-auto-columns: calc(50% - 5px);
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-btn-3 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-btn-4 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-btn-5 {
+    margin-left: 0;
   }
 
   .u-section-2 .u-repeater-2 {
     grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
+  }
+
+  .u-section-2 .u-btn-8 {
+    margin-top: -55px;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-    min-height: 241px;
+    grid-auto-columns: calc(100% - 0px);
   }
 
-  .u-section-2 .u-repeater-2 {
-    grid-auto-columns: 100%;
+  .u-section-2 .u-list-2 {
+    margin-left: 90px;
   }
 }
 
@@ -503,10 +589,12 @@
 
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: 100%;
   }
 
   .u-section-2 .u-list-2 {
     width: 340px;
+    margin-left: 0;
   }
 }
 
@@ -661,6 +749,28 @@
 }
 
 .u-container-layout.hover .u-section-2 .u-btn-7 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-2 .u-btn-8,
+.u-section-2 .u-btn-8:before,
+.u-section-2 .u-btn-8 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-2 .u-btn-8.u-btn-8.u-btn-8:hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-2 .u-btn-8.u-btn-8.u-btn-8.hover {
+  transform: scale(1.1) !important;
+}
+
+.u-section-2 .u-container-layout:hover .u-btn-8 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-2 .u-btn-8 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-3 .u-sheet-1 {
   min-height: 491px;
