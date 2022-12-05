@@ -127,14 +127,14 @@
     min-height: 340px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 1267px;
+  min-height: 1317px;
 }
 
 .u-section-2 .u-custom-html-1 {
   height: auto;
   min-height: 1207px;
   width: 800px;
-  margin: 30px auto;
+  margin: 30px auto 60px;
 }
 
 @media (max-width: 991px) {
